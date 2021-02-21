@@ -13,11 +13,13 @@ public class BaseClass {
 
 	
 	public static WebDriver  driver;
+	public static FileExtentOfReport extentReport;
 	public static WebDriver openBrowser() {
 	 WebDriverManager.chromedriver().setup();
 	  driver= new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.get(readProperties("URL"));
+	  extentReport= new FileExtentOfReport(driver);
 	  return driver;
 	}
 	

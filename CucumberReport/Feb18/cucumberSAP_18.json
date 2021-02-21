@@ -1,0 +1,656 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5853818800,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)\r\n\tat com.rediffmail.pages.LoginPage.login(LoginPage.java:33)\r\n\tat com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)\r\n\tat ✽.Given User login to the application with valid credentials(Compose.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User login to the application with valid credentials",
+            "match": {
+              "location": "ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5669923800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.preRequisites()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify user is able to Compose mail and send mail without subject",
+        "description": "",
+        "id": "compose-a-mail;verify-user-is-able-to-compose-mail-and-send-mail-without-subject",
+        "after": [
+          {
+            "result": {
+              "duration": 909834800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User navigate to \"Write mail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Write mail",
+                  "offset": 18
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_navigate_to_diffirent_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verify New Mail tab is open",
+            "match": {
+              "location": "ComposeMailStepDefinition.verify_New_Mail_tab_is_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Verify all links and icon on that tab",
+            "match": {
+              "location": "ComposeMailStepDefinition.verify_all_links_and_icon_on_that_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User composes the mail \"without subject\" and \"valid\" recipient",
+            "match": {
+              "arguments": [
+                {
+                  "val": "without subject",
+                  "offset": 24
+                },
+                {
+                  "val": "valid",
+                  "offset": 46
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_composes_the_mail_and_send_it(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click on \"Send\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send",
+                  "offset": 10
+                }
+              ],
+              "location": "ComposeMailStepDefinition.click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User verify \"No Subject\" pop up message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No Subject",
+                  "offset": 13
+                }
+              ],
+              "location": "ComposeMailStepDefinition.verify_popUp_messages(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User verify \"mail has been sent\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mail has been sent",
+                  "offset": 13
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_verify_the_sent_mail_message(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4766354300,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)\r\n\tat com.rediffmail.pages.LoginPage.login(LoginPage.java:33)\r\n\tat com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)\r\n\tat ✽.Given User login to the application with valid credentials(Compose.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User login to the application with valid credentials",
+            "match": {
+              "location": "ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4138849800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.preRequisites()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify user is able to Compose mail with subject",
+        "description": "",
+        "id": "compose-a-mail;verify-user-is-able-to-compose-mail-with-subject",
+        "after": [
+          {
+            "result": {
+              "duration": 891422500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User navigate to \"Write mail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Write mail",
+                  "offset": 18
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_navigate_to_diffirent_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Verify New Mail tab is open",
+            "match": {
+              "location": "ComposeMailStepDefinition.verify_New_Mail_tab_is_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User composes the mail \"with subject\" and \"valid\" recipient",
+            "match": {
+              "arguments": [
+                {
+                  "val": "with subject",
+                  "offset": 24
+                },
+                {
+                  "val": "valid",
+                  "offset": 43
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_composes_the_mail_and_send_it(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "click on \"Send\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send",
+                  "offset": 10
+                }
+              ],
+              "location": "ComposeMailStepDefinition.click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User verify \"mail has been sent\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mail has been sent",
+                  "offset": 13
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_verify_the_sent_mail_message(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4153127200,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)\r\n\tat com.rediffmail.pages.LoginPage.login(LoginPage.java:33)\r\n\tat com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)\r\n\tat ✽.Given User login to the application with valid credentials(Compose.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User login to the application with valid credentials",
+            "match": {
+              "location": "ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4181095500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.preRequisites()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify user gets warning pop up for cancelling mail and  when trying to send mail with empty or invalid recipient id",
+        "description": "",
+        "id": "compose-a-mail;verify-user-gets-warning-pop-up-for-cancelling-mail-and--when-trying-to-send-mail-with-empty-or-invalid-recipient-id",
+        "after": [
+          {
+            "result": {
+              "duration": 905348100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User navigate to \"Write mail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Write mail",
+                  "offset": 18
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_navigate_to_diffirent_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Verify New Mail tab is open",
+            "match": {
+              "location": "ComposeMailStepDefinition.verify_New_Mail_tab_is_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "click on \"Send\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send",
+                  "offset": 10
+                }
+              ],
+              "location": "ComposeMailStepDefinition.click_on_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User verify \"Empty Recipient\" pop up message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Empty Recipient",
+                  "offset": 13
+                }
+              ],
+              "location": "ComposeMailStepDefinition.verify_popUp_messages(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User composes the mail \"with subject\" and \"invalid\" recipient",
+            "match": {
+              "arguments": [
+                {
+                  "val": "with subject",
+                  "offset": 24
+                },
+                {
+                  "val": "invalid",
+                  "offset": 43
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_composes_the_mail_and_send_it(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "click on \"Send\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Send",
+                  "offset": 10
+                }
+              ],
+              "location": "ComposeMailStepDefinition.click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User verify \"Invalid Recipient\" pop up message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Recipient",
+                  "offset": 13
+                }
+              ],
+              "location": "ComposeMailStepDefinition.verify_popUp_messages(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "click on \"Cancel\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cancel",
+                  "offset": 10
+                }
+              ],
+              "location": "ComposeMailStepDefinition.click_on_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User verify \"Discard Mail\" pop up message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Discard Mail",
+                  "offset": 13
+                }
+              ],
+              "location": "ComposeMailStepDefinition.verify_popUp_messages(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5106114600,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)\r\n\tat com.rediffmail.pages.LoginPage.login(LoginPage.java:33)\r\n\tat com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)\r\n\tat ✽.Given User login to the application with valid credentials(Compose.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User login to the application with valid credentials",
+            "match": {
+              "location": "ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4170359900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.preRequisites()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Verify user is able to Compose mail and save it",
+        "description": "",
+        "id": "compose-a-mail;verify-user-is-able-to-compose-mail-and-save-it",
+        "after": [
+          {
+            "result": {
+              "duration": 904044600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User navigate to \"Write mail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Write mail",
+                  "offset": 18
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_navigate_to_diffirent_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Verify New Mail tab is open",
+            "match": {
+              "location": "ComposeMailStepDefinition.verify_New_Mail_tab_is_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "User composes the mail \"with subject\" and \"valid\" recipient",
+            "match": {
+              "arguments": [
+                {
+                  "val": "with subject",
+                  "offset": 24
+                },
+                {
+                  "val": "valid",
+                  "offset": 43
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_composes_the_mail_and_send_it(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "click on \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Save",
+                  "offset": 10
+                }
+              ],
+              "location": "ComposeMailStepDefinition.click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "User verify \"Saving mail.\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Saving mail.",
+                  "offset": 13
+                }
+              ],
+              "location": "ComposeMailStepDefinition.user_verify_the_sent_mail_message(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Compose a mail",
+    "description": "",
+    "id": "compose-a-mail",
+    "keyword": "Feature",
+    "uri": "Compose.feature"
+  }
+]

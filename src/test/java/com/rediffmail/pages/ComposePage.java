@@ -150,8 +150,9 @@ public class ComposePage {
     	lib.clickEle(acceptPopUpBtn, warningTitle+" pop up accept button");
     }
     
-    public void verifySuccessMsg(String msg)
+    public void verifySuccessMsg(String msg) throws InterruptedException
     {
+    	Thread.sleep(2000);
     	lib.verifyContainsText(notification, msg, "mail sent success message");
     }
     

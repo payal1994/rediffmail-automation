@@ -4,6 +4,7 @@ import com.rediffmail.pages.ComposePage;
 import com.rediffmail.pages.HomePage;
 import com.rediffmail.pages.LoginPage;
 import com.rediffmail.utilities.BaseClass;
+import com.rediffmail.utilities.CommonLibreary;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
@@ -13,6 +14,7 @@ import cucumber.api.java.en.When;
 
 public class ComposeMailStepDefinition extends BaseClass{
 	LoginPage login= new LoginPage(driver);  
+	CommonLibreary lib= new CommonLibreary();
 	HomePage homePage;//= new HomePage(driver); 
 	ComposePage composePage;
 	@Given("^User login to the application with valid credentials$")
@@ -62,7 +64,8 @@ public class ComposeMailStepDefinition extends BaseClass{
 		}
 		if(arg2.equalsIgnoreCase("valid"))
 		{
-			composePage.enterRecipient("payal.kataruka2018@gmail.com");
+			String emailId=lib.getSaltString(8)+"@gmail.com";
+			composePage.enterRecipient(emailId);
 		}
 		else
 		{

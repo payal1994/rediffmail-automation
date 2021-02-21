@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="41.650294">
+<testcase classname="Compose a mail" name="Verify user is able to Compose mail and send mail without subject" time="12.433577">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)&#13;&#10;&#9;at com.rediffmail.pages.LoginPage.login(LoginPage.java:33)&#13;&#10;&#9;at com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)&#13;&#10;&#9;at ✽.Given User login to the application with valid credentials(Compose.feature:4)&#13;&#10;"><![CDATA[Given User login to the application with valid credentials..................failed
+When User navigate to "Write mail"..........................................skipped
+Then Verify New Mail tab is open............................................skipped
+And Verify all links and icon on that tab...................................skipped
+When User composes the mail "without subject" and "valid" recipient.........skipped
+And click on "Send" button..................................................skipped
+Then User verify "No Subject" pop up message................................skipped
+And User verify "mail has been sent" message................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)
+	at com.rediffmail.pages.LoginPage.login(LoginPage.java:33)
+	at com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)
+	at ✽.Given User login to the application with valid credentials(Compose.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Compose a mail" name="Verify user is able to Compose mail with subject" time="9.796627">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)&#13;&#10;&#9;at com.rediffmail.pages.LoginPage.login(LoginPage.java:33)&#13;&#10;&#9;at com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)&#13;&#10;&#9;at ✽.Given User login to the application with valid credentials(Compose.feature:4)&#13;&#10;"><![CDATA[Given User login to the application with valid credentials..................failed
+When User navigate to "Write mail"..........................................skipped
+Then Verify New Mail tab is open............................................skipped
+When User composes the mail "with subject" and "valid" recipient............skipped
+And click on "Send" button..................................................skipped
+And User verify "mail has been sent" message................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)
+	at com.rediffmail.pages.LoginPage.login(LoginPage.java:33)
+	at com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)
+	at ✽.Given User login to the application with valid credentials(Compose.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Compose a mail" name="Verify user gets warning pop up for cancelling mail and  when trying to send mail with empty or invalid recipient id" time="9.239571">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)&#13;&#10;&#9;at com.rediffmail.pages.LoginPage.login(LoginPage.java:33)&#13;&#10;&#9;at com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)&#13;&#10;&#9;at ✽.Given User login to the application with valid credentials(Compose.feature:4)&#13;&#10;"><![CDATA[Given User login to the application with valid credentials..................failed
+When User navigate to "Write mail"..........................................skipped
+Then Verify New Mail tab is open............................................skipped
+When click on "Send" button.................................................skipped
+Then User verify "Empty Recipient" pop up message...........................skipped
+When User composes the mail "with subject" and "invalid" recipient..........skipped
+And click on "Send" button..................................................skipped
+Then User verify "Invalid Recipient" pop up message.........................skipped
+When click on "Cancel" button...............................................skipped
+Then User verify "Discard Mail" pop up message..............................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)
+	at com.rediffmail.pages.LoginPage.login(LoginPage.java:33)
+	at com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)
+	at ✽.Given User login to the application with valid credentials(Compose.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Compose a mail" name="Verify user is able to Compose mail and save it" time="10.180519">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)&#13;&#10;&#9;at com.rediffmail.pages.LoginPage.login(LoginPage.java:33)&#13;&#10;&#9;at com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)&#13;&#10;&#9;at ✽.Given User login to the application with valid credentials(Compose.feature:4)&#13;&#10;"><![CDATA[Given User login to the application with valid credentials..................failed
+When User navigate to "Write mail"..........................................skipped
+Then Verify New Mail tab is open............................................skipped
+When User composes the mail "with subject" and "valid" recipient............skipped
+And click on "Save" button..................................................skipped
+And User verify "Saving mail." message......................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at com.rediffmail.utilities.CommonLibreary.clickEle(CommonLibreary.java:80)
+	at com.rediffmail.pages.LoginPage.login(LoginPage.java:33)
+	at com.rediffmail.stepdefinitions.ComposeMailStepDefinition.user_login_to_the_application_with_valid_credentials(ComposeMailStepDefinition.java:20)
+	at ✽.Given User login to the application with valid credentials(Compose.feature:4)
+]]></failure>
+</testcase>
+</testsuite>
